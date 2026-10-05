@@ -1,0 +1,43 @@
+/* 
+* --> Alles
+p --> alle <p>
+.karte --> alle Elemente mit class="karte"
+#hobby --> das Element mit id="hobby"
+*/
+
+/*Aufgabe 2: global * */
+* {
+  box-sizing: border-box;
+}
+/*Aufgabe 1: body + Klasse färben */
+body{
+    color:rgb(189, 0, 0);
+    background-color: black;
+    padding: 1rem;
+}
+
+.gefaerbt{
+    color: rgb(84, 152, 7);
+}
+
+/* Aufgabe 2: Karte */
+.karte{
+    width: 20rem; 
+    padding: 1rem; 
+    border: 2px solid;
+}
+
+/* Aufgabe 3: rgba */
+.leicht{
+    background-color: rgba(109, 40, 217, 0.15);
+}
+.voll{
+    background-color: rgba(109, 40, 217, 1);
+}
+
+/* Titel in rgba  */
+h1
+{
+    background-color: rgb(40, 217, 167);
+    padding: 1rem;
+}
