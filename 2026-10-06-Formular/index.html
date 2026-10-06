@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moza</title>
+</head>
+<body>
+    <form
+        action="mailto:moz220598@spengergasse.at?subject=Formular%20HTML%20Uebung%20Formular"
+        method="post" enctype="text/plain">
+        <b>Lukas Moza</b>
+        <br><br><br>
+        <!-- Texteingabe -->
+        <label for="Vorname">Vorname: </label>
+        <input type="text" name="Vorname" id="Voranem">
+        <br><br>
+        <label for="Nachname">Nachname: </label>
+        <input type="text" name="Nachname" id="Nachname">
+        <br><br>
+        <!-- Radiobutton -->
+         <b>Geschlecht:</b>
+         <br>
+         <input type="radio" name="geschlecht" value="maennlich" required>Männlich
+         <br>
+         <input type="radio" name="geschlecht" value="weiblich">Weiblich
+         <br><br>
+        <!-- Checkbox -->
+         <b>Interessen:</b>
+         <br>
+         <input type="checkbox" name="hobby" value="Sport"> Sport
+         <input type="checkbox" name="hobby" value="Musik"> Musik
+         <input type="checkbox" name="hobby" value="kochen"> Kochen
+         <input type="checkbox" name="hobby" value="It"> IT
+         <br><br>
+         
+         <!-- Dropdown -->
+        <b>Lieblingsfarbe: </b>
+        <select name="farbe">
+            <option value="blau">Blau</option>
+            <option value="grün">Grün</option>
+            <option value="rot">Rot</option>
+            <option value="gelb">Gelb</option>
+        </select>
+        <br><br>
+
+        <!-- Merhfachauswahl -->
+         <b>Handymarke: </b>
+         <br>
+        <select name="handy" multiple>
+            <option value="Iphone">Iphone</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Huawai">Huawai</option>
+        </select>
+        <br><br>
+
+        <!-- Mehrzeilige Textfelder -->
+        <textarea name="Kommentar" placeholder="Fügen Sie Ihren Kommentar ein!"></textarea>
+        <br><br>
+
+        <!-- Und ein weiteres Eingabefeld -->
+         <label for="Interessen" name="WeitereInteressen" id="WeitereInteressen" >Weiter Interessen: </label>
+         <input type="text" placeholder="Gym">
+        <br><br>
+
+
+         <!-- Button -->
+          <input type="submit"
+          value="Formular abschicken">
+          <input type="reset"
+          value="Formular zurücksetzen">
+        
+    </form>
+    <!-- Texteingabe -->
+    <!-- Radiobutton -->
+    <!-- Checkbox -->
+    <!-- Dropdown -->
+    <!-- Merhfachauswahl -->
+    <!-- Mehrzeilige Textfelder -->
+    <!-- Und ein weiteres Eingabefeld -->
+    <!-- Beim Abschicken des Formulars soll der Mailclient aufgerufen werden und die eingegebenen Daten an "Ihre eMail-Adresse" übermittelt werden.
+     Die eMail soll vom Formular mit einem Betreff vesehen werden. -->
+    <!-- Bonus: Pflichtfelder, pattern-matching -->
+</body>
+</html>
